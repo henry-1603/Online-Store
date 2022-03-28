@@ -4,18 +4,19 @@
 }
 
 .header {
-  color: red;
-  display: inline-flex;
-  flex-direction: row;
-  border-bottom: 3px solid red;
-  margin-top: 15px;
-  position: relative;
-  /* right: -40px; */
+  top: 10px;
+  background: white;
+  display: flex;
+  max-height: 70px;
+  justify-content: right;
+  position: sticky;
+  z-index: 2;
+  border-bottom: 2px solid red;
 }
 
 .header-text {
   display: inline;
-
+  color: red;
   /* justify-content: right; */
   margin-left: 10px;
   margin-top: 15px;
@@ -73,22 +74,57 @@
 
 .left-icon:hover {
   position: relative;
-  bottom: 500px;
+  bottom: 12px;
 }
 
-.left-text {
+.nav-link {
+  font-size: 10px;
+  font-weight: bold;
   color: black;
-  display: inline;
-  flex-direction: row;
-  text-align: right;
+  padding: 10px 20px;
+
   text-decoration: none;
-  justify-content: right;
-  padding: 20px;
-  margin-top: 25px;
-  margin-right: 8px;
-  margin-left: -8px;
+
   position: relative;
   left: -135px;
-  font-size: 12px;
-  word-spacing: 10px;
+  margin-top: 30px;
+}
+
+.welcome-section {
+  /* border: 2px solid black; */
+  min-height: 100vh;
+  text-align: left;
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-top: 250px;
+  margin-left: 150px;
+}
+
+.subtitle {
+  font-weight: lighter;
+  margin-left: 150px;
+}
+
+.person-image {
+  text-align: right;
+  justify-content: right;
+  flex-direction: row;
+  padding: 25px;
+  position: relative;
+  right: -900px;
+  top: -250px;
+  background: transparent;
+}
+
+.shop-now {
+  background-color: rgb(160, 24, 24);
+  color: white;
+  position: relative;
+  left: -490px;
+  top: -440px;
+  padding: 15px 30px;
+  font-weight: lighter;
 }
