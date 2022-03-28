@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  color: red;
+  display: inline-flex;
+  flex-direction: row;
+  border-bottom: 3px solid red;
+  margin-top: 15px;
+  position: relative;
+  /* right: -40px; */
+}
+
+.header-text {
+  display: inline;
+
+  /* justify-content: right; */
+  margin-left: 10px;
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+.container {
+  margin: auto;
+  width: 400px;
+  height: 60px;
+  margin-right: 700px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  margin-left: 420px;
+  margin-right: -420px;
+}
+.search-field {
+  width: 100%;
+  padding: 10px 20px 10px 10px;
+  border: none;
+  border-radius: 100px;
+  outline: none;
+}
+
+.search-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -33px;
+  justify-content: center;
+}
+
+.search-button img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.left-icon {
+  width: 20px;
+  height: 20px;
+  text-align: right;
+  justify-content: right;
+  flex-direction: row;
+  padding: 25px;
+  position: relative;
+  right: -70px;
+  top: -10px;
+  background: transparent;
+}
+
+.left-icon:hover {
+  position: relative;
+  bottom: 500px;
+}
+
+.left-text {
+  color: black;
+  display: inline;
+  flex-direction: row;
+  text-align: right;
+  text-decoration: none;
+  justify-content: right;
+  padding: 20px;
+  margin-top: 25px;
+  margin-right: 8px;
+  margin-left: -8px;
+  position: relative;
+  left: -135px;
+  font-size: 12px;
+  word-spacing: 10px;
+}
